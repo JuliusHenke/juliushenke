@@ -1,10 +1,8 @@
-import {createElement, FunctionComponent, h, VNode} from "preact";
-import JSX = createElement.JSX;
-
+import React, {FunctionComponent, ReactChild} from "react";
 
 interface Props {
     href: string
-    label: VNode | string
+    label: ReactChild
 }
 
 export const ExternalLink: FunctionComponent<Props> = ({href,label}) => {
