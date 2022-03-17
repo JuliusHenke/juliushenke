@@ -1,27 +1,15 @@
-import {
-    AppShell,
-    Center,
-    Chip,
-    Container,
-    Grid,
-    Group,
-    Image,
-    MantineProvider,
-    SimpleGrid,
-    Tab,
-    Tabs
-} from "@mantine/core";
+import {AppShell, Center, Container, Group, Image, MantineProvider, Tabs} from "@mantine/core";
 import {BrandGithub, BrandInstagram, BrandTwitter, BrandYoutube, CurrencyBitcoin, Mail} from "tabler-icons-react";
-import KalkulierbarIcon from "./resources/kalkulierbar.png"
-import TorMapIcon from "./resources/tormap.png"
-import LightningPuzzleIcon from "./resources/lightningpuzzle.png"
-import SmartTimetableIcon from "./resources/smart-timetable.png"
-import TinTokIcon from "./resources/tintok.png"
-import TorMapScreenshot from "./resources/tormap-screenshot.png"
-import KalkulierbarScreenshot from "./resources/kalkulierbar-screenshot.png"
-import LighningPuzzleScreenshot from "./resources/lightningpuzzle-screenshot.png"
-import TinTokScreenshot from "./resources/tintok-screenshot.png"
-import SmartTimetableScreenshot from "./resources/smart-timetable-screenshot.png"
+import KalkulierbarIcon from "./resources/icons/kalkulierbar.png"
+import TorMapIcon from "./resources/icons/tormap.png"
+import LightningPuzzleIcon from "./resources/icons/lightningpuzzle.png"
+import SmartTimetableIcon from "./resources/icons/smart-timetable.png"
+import TinTokIcon from "./resources/icons/tintok.png"
+import TorMapScreenshot from "./resources/screenshots/tormap-screenshot.png"
+import KalkulierbarScreenshot from "./resources/screenshots/kalkulierbar-screenshot.png"
+import LighningPuzzleScreenshot from "./resources/screenshots/lightningpuzzle-screenshot.png"
+import TinTokScreenshot from "./resources/screenshots/tintok-screenshot.png"
+import SmartTimetableScreenshot from "./resources/screenshots/smart-timetable-screenshot.png"
 import {ExternalLink} from "./components/ExternalLink";
 import StyledTabs from "./components/StyledTabs";
 import {ProjectTabContent} from "./components/ProjectTabContent";

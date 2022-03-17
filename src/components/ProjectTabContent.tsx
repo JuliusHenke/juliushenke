@@ -1,9 +1,9 @@
-import React, {FunctionComponent, ReactChild} from "react";
-import {Chip, Container, Group, Image, Tab, Tabs} from "@mantine/core";
-import {Api, Book, BrandGithub, BrandGitlab, BrandGooglePlay, BrandTwitter} from "tabler-icons-react";
+import React, {FunctionComponent} from "react";
+import {Chip, Container, Group, Image} from "@mantine/core";
+import {Api, Book, BrandGithub, BrandGitlab, BrandTwitter} from "tabler-icons-react";
 import {ExternalLink} from "./ExternalLink";
-import FDroidIcon from "../resources/f-droid.png"
-import GoogPlayIcon from "../resources/google-play.png"
+import FDroidIcon from "../resources/icons/f-droid.png"
+import GoogPlayIcon from "../resources/icons/google-play.png"
 
 interface Props {
     title: string
@@ -45,7 +45,7 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
             <h3>Tech stack</h3>
             <Group spacing={"xs"}>{techStack.map(tag => <Chip checked={false} key={tag}>{tag}</Chip>)}</Group>
             <h3>Check it out</h3>
-            <Group>
+            <Group mb={24}>
                 {url && <ExternalLink
                     href={url}
                     label={url}
@@ -79,7 +79,7 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
                     label={<Api size={24} color={"white"}/>}
                 />}
             </Group>
-            <Image src={screenshot} width={"100%"} mt={24}/>
+            <img src={screenshot} width={"100%"} alt={`${title} screenshot`} loading={"lazy"}/>
         </Container>
     )
 }
