@@ -1,4 +1,4 @@
-import { TabsProps, Tabs } from '@mantine/core';
+import {Tabs, TabsProps} from '@mantine/core';
 
 export default function StyledTabs(props: TabsProps) {
     return (
