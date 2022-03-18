@@ -22,8 +22,10 @@ import {ExternalLink} from "./components/ExternalLink";
 import StyledTabs from "./components/StyledTabs";
 import {ProjectTabContent} from "./components/ProjectTabContent";
 import React from "react";
+import {useViewportSize} from "@mantine/hooks";
 
 export default function App() {
+    const { width } = useViewportSize();
     return (
         <MantineProvider theme={{
             colorScheme: 'dark',
@@ -62,7 +64,9 @@ export default function App() {
                         backgroundColor: "#2b2238",
                         textAlign: "left",
                         fontSize: "0.8em",
-                    }}>
+                    }}
+                    grow={width > 1050}
+                    >
                         <Tabs.Tab label={"TorMap"} icon={<Image src={TorMapIcon} width={24}/>}>
                             <ProjectTabContent
                                 title={"TorMap"}
