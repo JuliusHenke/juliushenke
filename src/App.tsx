@@ -1,8 +1,8 @@
 import {AppShell, Center, Container, Group, Image, MantineProvider, Tabs} from "@mantine/core";
 import {
     BrandGithub,
-    BrandGitlab,
     BrandInstagram,
+    BrandLinkedin,
     BrandTwitter,
     BrandYoutube,
     CurrencyBitcoin,
@@ -39,14 +39,14 @@ export default function App() {
                 <Center><Group>
                     <ExternalLink href={"https://github.com/JuliusHenke"}
                                   label={<BrandGithub size={24} color={"white"}/>}/>
-                    <ExternalLink href={"https://gitlab.com/JuliusHenke"}
-                                  label={<BrandGitlab size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://twitter.com/Julius_Henke"}
                                   label={<BrandTwitter size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://www.youtube.com/channel/UCbg7puqKKCvH_fYMPvUjhYA"}
                                   label={<BrandYoutube size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://www.instagram.com/juliushenke/"}
                                   label={<BrandInstagram size={24} color={"white"}/>}/>
+                    <ExternalLink href={"https://www.linkedin.com/in/juliushenke"}
+                                  label={<BrandLinkedin size={24} color={"white"}/>}/>
                     <ExternalLink href={"mailto:mail@juliushenke.com"}
                                   label={<Mail size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://tippin.me/@Julius_Henke"}
