@@ -136,7 +136,7 @@ export default function App() {
                                 title={"Smart Timetable"}
                                 description={`
                                     Smart Timetable is a small Android app I developed in my school time. My school timetable
-                                    rotated every two weeks and I did not immediately find any app that supported this feature.
+                                    rotated every week and I did not immediately find any app that supported this feature.
                                     So I
                                     took this challenge to code my own app, which was a great learning experience.
                                 `}
