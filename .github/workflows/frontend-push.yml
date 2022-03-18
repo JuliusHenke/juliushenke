@@ -24,3 +24,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JULIUSHENKE_96CE3 }}'
           channelId: live
           projectId: juliushenke-96ce3
+        env:
+          FIREBASE_CLI_PREVIEWS: hostingchannels
