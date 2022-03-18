@@ -27,6 +27,9 @@ export default function App() {
     return (
         <MantineProvider theme={{
             colorScheme: 'dark',
+            colors: {
+                pink: ["#673ab8", "10"]
+            }
         }}>
             <AppShell sx={{
                 textAlign: "center",
@@ -72,15 +75,15 @@ export default function App() {
                                     network can
                                     be viewed for any day between October 2007 and today.
                                 `}
-                                techStack={[
-                                    "TypeScript",
-                                    "React",
-                                    "MUI",
-                                    "Leaflet",
-                                    "Kotlin",
-                                    "Spring Boot",
-                                    "H2",
-                                ]}
+                                techStack={{
+                                    "TypeScript": "https://www.typescriptlang.org/",
+                                    "React": "https://reactjs.org/",
+                                    "MUI": "https://mui.com/",
+                                    "Leaflet": "https://leafletjs.com/",
+                                    "Kotlin": "https://kotlinlang.org/",
+                                    "Spring Boot": "https://spring.io/projects/spring-boot",
+                                    "H2": "https://www.h2database.com/",
+                                }}
                                 screenshot={TorMapScreenshot}
                                 url={"https://tormap.org"}
                                 github={"https://github.com/TorMap/tormap"}
@@ -98,13 +101,13 @@ export default function App() {
                                     part
                                     in with Bitcoin payments.
                                 `}
-                                techStack={[
-                                    "PHP",
-                                    "Code Igniter",
-                                    "MySQL",
-                                    "Bootstrap",
-                                    "jQuery",
-                                ]}
+                                techStack={{
+                                    "PHP": "https://www.php.net/",
+                                    "Code Igniter": "https://codeigniter.com/",
+                                    "MySQL": "https://www.mysql.com/",
+                                    "Bootstrap": "https://getbootstrap.com/",
+                                    "jQuery": "https://jquery.com/",
+                                }}
                                 screenshot={LighningPuzzleScreenshot}
                                 url={"https://lightningpuzzle.com"}
                                 twitter={"https://twitter.com/lightningpuzzle"}
@@ -118,13 +121,13 @@ export default function App() {
                                     app
                                     for IT students. We developed it in a team of 5 students.
                                 `}
-                                techStack={[
-                                    "TypeScript",
-                                    "Preact",
-                                    "Sass",
-                                    "Kotlin",
-                                    "Javalin",
-                                ]}
+                                techStack={{
+                                    "TypeScript": "https://www.typescriptlang.org/",
+                                    "Preact": "https://preactjs.com/",
+                                    "Sass": "https://sass-lang.com/",
+                                    "Kotlin": "https://kotlinlang.org/",
+                                    "Javalin": "https://javalin.io/",
+                                }}
                                 screenshot={KalkulierbarScreenshot}
                                 url={"https://kbar.app"}
                                 api={"https://api.kbar.app"}
@@ -140,9 +143,9 @@ export default function App() {
                                     So I
                                     took this challenge to code my own app, which was a great learning experience.
                                 `}
-                                techStack={[
-                                    "Kotlin",
-                                ]}
+                                techStack={{
+                                    "Kotlin": "https://kotlinlang.org/",
+                                }}
                                 screenshot={SmartTimetableScreenshot}
                                 github={"https://github.com/JuliusHenke/Timetable-App"}
                                 googlePlay={"https://play.google.com/store/apps/details?id=juliushenke.smarttt"}
@@ -159,12 +162,12 @@ export default function App() {
                                     automatically creates matches with other people, based on your likes. We developed this
                                     app in a team of 5 students.
                                 `}
-                                techStack={[
-                                    "Kotlin",
-                                    "Material Design",
-                                    "Spring Boot",
-                                    "Neo4j",
-                                ]}
+                                techStack={{
+                                    "Kotlin": "https://kotlinlang.org/",
+                                    "Material Design": "https://material.io/design",
+                                    "Spring Boot": "https://spring.io/projects/spring-boot",
+                                    "Neo4j": "https://neo4j.com/",
+                                }}
                                 screenshot={TinTokScreenshot}
                                 gitlab={"https://gitlab.com/tintok"}
                                 api={"https://tintok.gitlab.io/openapi/"}
