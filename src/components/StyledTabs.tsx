@@ -7,14 +7,14 @@ export default function StyledTabs(props: TabsProps) {
             styles={(theme) => ({
                 tabControl: {
                     fontSize: theme.fontSizes.md,
-                    padding: `${theme.spacing.xl}px ${theme.spacing.xl}px`,
+                    padding: `${theme.spacing.md}px ${theme.spacing.md}px`,
                 },
-
                 tabActive: {
                     // backgroundColor: theme.colors.blue[7],
                     color: theme.white,
                 },
             })}
+            grow={true}
             {...props}
         />
     );

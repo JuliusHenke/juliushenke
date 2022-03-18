@@ -8,7 +8,7 @@ import GoogPlayIcon from "../resources/icons/google-play.png"
 interface Props {
     title: string
     description: string
-    techStack: string []
+    techStack: Record<string, string>
     screenshot: string
     url?: string
     github?: string
@@ -36,14 +36,32 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
                                                             }) => {
     return (
         <Container sx={{
-            paddingBottom: "16px"
+            paddingBottom: "16px",
         }}>
             <h3>{title}</h3>
             <p>
                 {description}
             </p>
             <h3>Tech stack</h3>
-            <Group spacing={"xs"}>{techStack.map(tag => <Chip checked={false} key={tag}>{tag}</Chip>)}</Group>
+            <Group spacing={"xs"}>{
+                Object.entries(techStack).map(([name, url]) =>
+                    <Chip
+                        checked={false}
+                        key={name}
+                        styles={(theme) => ({
+                            filled: {
+                                color: "white",
+                                backgroundColor: theme.colors.pink
+                            }
+                        })}
+                        sx={{
+                            a: {
+                                textDecoration: "none"
+                            }
+                        }}
+                    ><ExternalLink href={url} label={name}/></Chip>
+                )
+            }</Group>
             <h3>Check it out</h3>
             <Group mb={24}>
                 {url && <ExternalLink
