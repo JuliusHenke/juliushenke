@@ -14,7 +14,6 @@ export default function StyledTabs(props: TabsProps) {
                     color: theme.white,
                 },
             })}
-            grow={true}
             {...props}
         />
     );

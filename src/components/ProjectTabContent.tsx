@@ -52,14 +52,15 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
                             filled: {
                                 color: "white",
                                 backgroundColor: theme.colors.pink
-                            }
+                            },
                         })}
                         sx={{
                             a: {
                                 textDecoration: "none"
                             }
                         }}
-                    ><ExternalLink href={url} label={name}/></Chip>
+                        onClick={() => window.open(url)}
+                    >{name}</Chip>
                 )
             }</Group>
             <h3>Check it out</h3>
@@ -97,7 +98,7 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
                     label={<Api size={24} color={"white"}/>}
                 />}
             </Group>
-            <img src={screenshot} width={"100%"} alt={`${title} screenshot`} loading={"lazy"}/>
+            <Image src={screenshot} width={"100%"} alt={`${title} screenshot`} radius={"md"}/>
         </Container>
     )
 }
