@@ -2,9 +2,9 @@ name: frontend-push
 
 on:
   push:
-    paths:
-      - 'frontend/**'
-      - '.github/workflows/frontend-push.yml'
+    branches:
+      - master
+      - main
 
 jobs:
   frontend-push:
@@ -19,7 +19,6 @@ jobs:
           yarn build
 
       - name: Deploy to juliushenke.com
-        if: github.ref_name == 'master' || github.ref_name == 'main'
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
