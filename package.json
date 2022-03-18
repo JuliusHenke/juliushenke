@@ -8,18 +8,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mantine/core": "4.0.4",
-    "@mantine/hooks": "4.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "tabler-icons-react": "1.38.0"
+    "@mantine/core": "4.0.5",
+    "@mantine/hooks": "4.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "tabler-icons-react": "1.39.0"
   },
   "devDependencies": {
-    "@types/react": "^17.0.33",
-    "@types/react-dom": "^17.0.10",
-    "@vitejs/plugin-react": "^1.0.7",
-    "typescript": "^4.5.4",
-    "vite": "^2.8.0"
+    "@types/react": "17.0.40",
+    "@types/react-dom": "17.0.13",
+    "@vitejs/plugin-react": "1.2.0",
+    "typescript": "4.6.2",
+    "vite": "2.8.6"
   },
   "packageManager": "yarn@3.2.0"
 }
