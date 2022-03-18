@@ -2,19 +2,15 @@ name: frontend-pull-request
 
 on:
   pull_request:
-    paths:
-      - 'frontend/**'
-      - '.github/workflows/frontend-pull-request.yml'
 
 jobs:
   frontend-pull-request:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Check yarn cache and build
         run: | 
-          cd frontend
           yarn install --immutable --immutable-cache --check-cache
           yarn build
 
