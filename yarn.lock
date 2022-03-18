@@ -471,36 +471,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:4.0.5":
-  version: 4.0.5
-  resolution: "@mantine/core@npm:4.0.5"
+"@mantine/core@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@mantine/core@npm:4.0.6"
   dependencies:
-    "@mantine/styles": 4.0.5
+    "@mantine/styles": 4.0.6
     "@popperjs/core": ^2.9.3
     "@radix-ui/react-scroll-area": ^0.1.1
     clsx: ^1.1.1
     react-popper: ^2.2.5
     react-textarea-autosize: ^8.3.2
   peerDependencies:
-    "@mantine/hooks": 4.0.5
+    "@mantine/hooks": 4.0.6
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 7686f129760b4a516b4fd71ed48795f0f3665469f19e05bba25899c7258aa4ebac6c7c395ca20fddba5c27c2e47e4a3f6b9608f51a292bea37be6a266e350894
+  checksum: b4dc691dedd3b566444fafafa2f278df9b5899f58fd62f1050d203c59e8fd384a36e3e655b735fa9b8cbb90b52487555f8d0f663ec06a565e21d0a49fbd897c0
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:4.0.5":
-  version: 4.0.5
-  resolution: "@mantine/hooks@npm:4.0.5"
+"@mantine/hooks@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@mantine/hooks@npm:4.0.6"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: f7f8ed266bdbd4a5e81029a36a3bbe63d44285df77c2a10121a68451855994e521e66598d22fb623e91e7ea208f775a0a768f2e29a6e3311349f7345acced85a
+  checksum: 91ce7b880149c97539f9983c5eefbe90dda64e5c4093d96b0d834c3fb142da7dd0dad9f3a7948876ba09070ee2f8e99efbd763812f64519e26ef9dbca2f09f09
   languageName: node
   linkType: hard
 
-"@mantine/styles@npm:4.0.5":
-  version: 4.0.5
-  resolution: "@mantine/styles@npm:4.0.5"
+"@mantine/styles@npm:4.0.6":
+  version: 4.0.6
+  resolution: "@mantine/styles@npm:4.0.6"
   dependencies:
     "@emotion/cache": ^11.7.1
     "@emotion/react": ^11.7.1
@@ -511,7 +511,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 0f10395862671fc05fc19621025466ca8299c312fc40fa70674bb23260dc52358c1a6d6a5834b6ce801f8a31e388e961d3d4e8d135243b279d976a1edd778920
+  checksum: a27a2f8cbb7b28e6f8c36f0b26d2ebbec2850a79cb06b5b13d1171127b8e48fade464359bef03d1258c43cc195bde2335be08a0cd7e7eb2f17e0841c4b66531f
   languageName: node
   linkType: hard
 
@@ -1618,8 +1618,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "juliushenke@workspace:."
   dependencies:
-    "@mantine/core": 4.0.5
-    "@mantine/hooks": 4.0.5
+    "@mantine/core": 4.0.6
+    "@mantine/hooks": 4.0.6
     "@types/react": 17.0.40
     "@types/react-dom": 17.0.13
     "@vitejs/plugin-react": 1.2.0
