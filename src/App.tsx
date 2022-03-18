@@ -1,5 +1,13 @@
 import {AppShell, Center, Container, Group, Image, MantineProvider, Tabs} from "@mantine/core";
-import {BrandGithub, BrandInstagram, BrandTwitter, BrandYoutube, CurrencyBitcoin, Mail} from "tabler-icons-react";
+import {
+    BrandGithub,
+    BrandGitlab,
+    BrandInstagram,
+    BrandTwitter,
+    BrandYoutube,
+    CurrencyBitcoin,
+    Mail
+} from "tabler-icons-react";
 import KalkulierbarIcon from "./resources/icons/kalkulierbar.png"
 import TorMapIcon from "./resources/icons/tormap.png"
 import LightningPuzzleIcon from "./resources/icons/lightningpuzzle.png"
@@ -31,6 +39,8 @@ export default function App() {
                 <Center><Group>
                     <ExternalLink href={"https://github.com/JuliusHenke"}
                                   label={<BrandGithub size={24} color={"white"}/>}/>
+                    <ExternalLink href={"https://gitlab.com/JuliusHenke"}
+                                  label={<BrandGitlab size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://twitter.com/Julius_Henke"}
                                   label={<BrandTwitter size={24} color={"white"}/>}/>
                     <ExternalLink href={"https://www.youtube.com/channel/UCbg7puqKKCvH_fYMPvUjhYA"}
