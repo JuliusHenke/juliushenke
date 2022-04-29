@@ -30,7 +30,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.17.8":
+"@babel/core@npm:^7.17.9":
   version: 7.17.9
   resolution: "@babel/core@npm:7.17.9"
   dependencies:
@@ -519,35 +519,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:4.1.3":
-  version: 4.1.3
-  resolution: "@mantine/core@npm:4.1.3"
+"@mantine/core@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@mantine/core@npm:4.2.1"
   dependencies:
-    "@mantine/styles": 4.1.3
+    "@mantine/styles": 4.2.1
     "@popperjs/core": ^2.9.3
     "@radix-ui/react-scroll-area": ^0.1.1
     react-popper: ^2.2.5
     react-textarea-autosize: ^8.3.2
   peerDependencies:
-    "@mantine/hooks": 4.1.3
+    "@mantine/hooks": 4.2.1
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 8e86809b65619334b2e2b7a5ca295b3e43e6583b280d22b1e05f5c256e337146b0d1cd788f445fa64bfbb3fc1171c421fb5202c0185d0489c3a15a8e0056fd58
+  checksum: f3849b05956200daeb98dafd7259cb2c0245aa1c48e9cb14279e14f635739907a2c1d024bcf9951f4df3fb5e83ad28fed9ac8c6f60866b6e5b50626b7b49f52e
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:4.1.3":
-  version: 4.1.3
-  resolution: "@mantine/hooks@npm:4.1.3"
+"@mantine/hooks@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@mantine/hooks@npm:4.2.1"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 82ffaca96f17beffd7a933fa87426c0f20468f005f99fb233be19892bb6c9a192a342c6f401a8997d4ebf43b9a61eb0564c6e8d79fec821e7297476b200ca811
+  checksum: ed56c09d11c31636499aa26d446293d181169561c45f583f2555a362377d4419d703a91d1fba9550498436c4cd722c920f1c7008ea924f5d186a8edbde887b3e
   languageName: node
   linkType: hard
 
-"@mantine/styles@npm:4.1.3":
-  version: 4.1.3
-  resolution: "@mantine/styles@npm:4.1.3"
+"@mantine/styles@npm:4.2.1":
+  version: 4.2.1
+  resolution: "@mantine/styles@npm:4.2.1"
   dependencies:
     "@emotion/cache": ^11.7.1
     "@emotion/react": ^11.7.1
@@ -558,7 +558,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 9561a5bf4dca2f12d187f194f81a9c4e57f623eb27c9aa600fb7bf5cd1703916ab4d21bd72505c002a60de6b31a435033da28599d1e1f7d69c027ce967ff5e1e
+  checksum: 9bc2af578d7a6fea6a962bdb395eba0e32851d6ce3c6400932a4ebf2ec51567cdb47a726a6e418d00e459cdfdfa4b6c8d6057ee1414554288c5c0cacb9035c84
   languageName: node
   linkType: hard
 
@@ -750,16 +750,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.0":
-  version: 18.0.0
-  resolution: "@types/react-dom@npm:18.0.0"
+"@types/react-dom@npm:18.0.3":
+  version: 18.0.3
+  resolution: "@types/react-dom@npm:18.0.3"
   dependencies:
     "@types/react": "*"
-  checksum: 0d8c9cb3e72aefe0dd2b58a49845a200369f01ae92f3f11f642e04efc95dfd1c9380b6592d4273dd6113fb8707947d15b66d56c75c41f39f28bd897f0c08dfa9
+  checksum: 5c87fb610e212f0942ebbf522dfca4c9dc2ac8afa4c601454415e7c42f993518868207faff7658d11974142937ba7af2f80e274c3a3f5e0e697bdd5547dbe1b0
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:18.0.0":
+"@types/react@npm:*":
   version: 18.0.0
   resolution: "@types/react@npm:18.0.0"
   dependencies:
@@ -770,6 +770,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react@npm:18.0.8":
+  version: 18.0.8
+  resolution: "@types/react@npm:18.0.8"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 12d0e6bc390709926d8eaeb7d2edb4ef9c9fbe8eac41cb0619d958386700547bff91c880c2a12a9eb1e0d09afa4f1e86fd1b93164c627824465b72123f149f3b
+  languageName: node
+  linkType: hard
+
 "@types/scheduler@npm:*":
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
@@ -777,19 +788,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vitejs/plugin-react@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@vitejs/plugin-react@npm:1.3.0"
+"@vitejs/plugin-react@npm:1.3.1":
+  version: 1.3.1
+  resolution: "@vitejs/plugin-react@npm:1.3.1"
   dependencies:
-    "@babel/core": ^7.17.8
+    "@babel/core": ^7.17.9
     "@babel/plugin-transform-react-jsx": ^7.17.3
     "@babel/plugin-transform-react-jsx-development": ^7.16.7
     "@babel/plugin-transform-react-jsx-self": ^7.16.7
     "@babel/plugin-transform-react-jsx-source": ^7.16.7
     "@rollup/pluginutils": ^4.2.0
-    react-refresh: ^0.11.0
+    react-refresh: ^0.12.0
     resolve: ^1.22.0
-  checksum: 3af715b223f3115b271135909f372cd17d1d14a0c756d4b09df9d8ce3cc032e7f7fcb1c056becc62998a4c262c91aa7d6058ff496513c3c98852d1e6f9fd3c0e
+  checksum: 2d71677ec14b62589fd411bc9c76a0eba48469d06cf7b29106f0fae265bc386aeeb3071215d6a95f561a26c30a8bab8f523eedaabe7fe5f91b27d6317897bd47
   languageName: node
   linkType: hard
 
@@ -1663,16 +1674,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "juliushenke@workspace:."
   dependencies:
-    "@mantine/core": 4.1.3
-    "@mantine/hooks": 4.1.3
-    "@types/react": 18.0.0
-    "@types/react-dom": 18.0.0
-    "@vitejs/plugin-react": 1.3.0
-    react: 18.0.0
-    react-dom: 18.0.0
-    tabler-icons-react: 1.44.0
-    typescript: 4.6.3
-    vite: 2.9.1
+    "@mantine/core": 4.2.1
+    "@mantine/hooks": 4.2.1
+    "@types/react": 18.0.8
+    "@types/react-dom": 18.0.3
+    "@vitejs/plugin-react": 1.3.1
+    react: 18.1.0
+    react-dom: 18.1.0
+    tabler-icons-react: 1.47.0
+    typescript: 4.6.4
+    vite: 2.9.6
   languageName: unknown
   linkType: soft
 
@@ -2004,15 +2015,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react-dom@npm:18.0.0"
+"react-dom@npm:18.1.0":
+  version: 18.1.0
+  resolution: "react-dom@npm:18.1.0"
   dependencies:
     loose-envify: ^1.1.0
-    scheduler: ^0.21.0
+    scheduler: ^0.22.0
   peerDependencies:
-    react: ^18.0.0
-  checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
+    react: ^18.1.0
+  checksum: bb0d48eeb0b297c79c2a03978baa29f5b3ff7ba3d070b21e34c9af1a6e7fdf0ca8b8d73e41f9214d91ad40eeb6d1f3559f884cbbc338713374a51320637c23df
   languageName: node
   linkType: hard
 
@@ -2043,10 +2054,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-refresh@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "react-refresh@npm:0.11.0"
-  checksum: 112178a05b1e0ffeaf5d9fb4e56b4410a34a73adeb04dbf13abdc50d9ac9df2ada83e81485156cca0b3fa296aa3612751b3d6cd13be4464642a43679b819cbc7
+"react-refresh@npm:^0.12.0":
+  version: 0.12.0
+  resolution: "react-refresh@npm:0.12.0"
+  checksum: 046522ed9e26c2846afb734303d9461a825a96f863ea373b9296a90e7112e1602bdf5954d8b48193e763f3ff0108f2e4c00e42f0e3d45382bb9d38dc87348867
   languageName: node
   linkType: hard
 
@@ -2063,12 +2074,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0":
-  version: 18.0.0
-  resolution: "react@npm:18.0.0"
+"react@npm:18.1.0":
+  version: 18.1.0
+  resolution: "react@npm:18.1.0"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
+  checksum: 5bb296b561b43ef2220395da4faac86c14a087c8c80e1a7598a5740f01ee605c11eaf249985c1e2000971c4cd32ccb46d40f00479bbd9fb6b1c7cf857393b7d4
   languageName: node
   linkType: hard
 
@@ -2176,12 +2187,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:^0.21.0":
-  version: 0.21.0
-  resolution: "scheduler@npm:0.21.0"
+"scheduler@npm:^0.22.0":
+  version: 0.22.0
+  resolution: "scheduler@npm:0.22.0"
   dependencies:
     loose-envify: ^1.1.0
-  checksum: 4f8285076041ed2c81acdd1faa987f1655fdbd30554bc667c1ea64743fc74fb3a04ca7d27454b3d678735df5a230137a3b84756061b43dc5796e80701b66d124
+  checksum: a8ef5cab769c020cd6382ad9ecc3f72dbde56a50a36639b3a42ad9c11f7724f03700bcad373044059b8067d4a6365154dc7c0ca8027ef20ff4900cf58a0fc2c5
   languageName: node
   linkType: hard
 
@@ -2322,12 +2333,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabler-icons-react@npm:1.44.0":
-  version: 1.44.0
-  resolution: "tabler-icons-react@npm:1.44.0"
+"tabler-icons-react@npm:1.47.0":
+  version: 1.47.0
+  resolution: "tabler-icons-react@npm:1.47.0"
   peerDependencies:
     react: ">= 16.8.0"
-  checksum: e5951f294594e8b3d66e0963570b5fca71eb04d89e25f7ba0c9d5f23ff2fc97589019f26e6636f4ce58d07adfd57225e596562a101fec54fac6e699693a3899b
+  checksum: 9bac720a28d80e871926a6dd92950b8c2c090b5796d0c46f92e91c9bf9860126c7671c6ed460d0edd2030aae4e5b5f189b9b8688b48bd36325a069858ccb5597
   languageName: node
   linkType: hard
 
@@ -2352,23 +2363,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:4.6.3":
-  version: 4.6.3
-  resolution: "typescript@npm:4.6.3"
+"typescript@npm:4.6.4":
+  version: 4.6.4
+  resolution: "typescript@npm:4.6.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 255bb26c8cb846ca689dd1c3a56587af4f69055907aa2c154796ea28ee0dea871535b1c78f85a6212c77f2657843a269c3a742d09d81495b97b914bf7920415b
+  checksum: e7bfcc39cd4571a63a54e5ea21f16b8445268b9900bf55aee0e02ad981be576acc140eba24f1af5e3c1457767c96cea6d12861768fb386cf3ffb34013718631a
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.3#~builtin<compat/typescript>":
-  version: 4.6.3
-  resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
+"typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
+  version: 4.6.4
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6bf45caf847062420592e711bc9c28bf5f9a9a7fa8245343b81493e4ededae33f1774009d1234d911422d1646a2c839f44e1a23ecb111b40a60ac2ea4c1482a8
+  checksum: 1cb434fbc637d347be90e3a0c6cd05e33c38f941713c8786d3031faf1842c2c148ba91d2fac01e7276b0ae3249b8633f1660e32686cc7a8c6a8fd5361dc52c66
   languageName: node
   linkType: hard
 
@@ -2432,9 +2443,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.1":
-  version: 2.9.1
-  resolution: "vite@npm:2.9.1"
+"vite@npm:2.9.6":
+  version: 2.9.6
+  resolution: "vite@npm:2.9.6"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -2457,7 +2468,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 0f0ac9337fa5c17faa4a59831a2df17475563b23a6162e86b2b60b19835ca1277f3249ea7a6608880354b39caf05779e9bad1e3b1f5b27010deced224aae47ea
+  checksum: 79bbf516547f4adb1a297ac8648f8818b3e2a7bb113a7e12acc2355498d247556f58fc50d39eec4891c07250e7420e72773e358eeb8dc62af62fc1ff32c70877
   languageName: node
   linkType: hard
 
