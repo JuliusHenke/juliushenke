@@ -569,35 +569,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/core@npm:4.2.2":
-  version: 4.2.2
-  resolution: "@mantine/core@npm:4.2.2"
+"@mantine/core@npm:4.2.4":
+  version: 4.2.4
+  resolution: "@mantine/core@npm:4.2.4"
   dependencies:
-    "@mantine/styles": 4.2.2
+    "@mantine/styles": 4.2.4
     "@popperjs/core": ^2.9.3
     "@radix-ui/react-scroll-area": ^0.1.1
     react-popper: ^2.2.5
     react-textarea-autosize: ^8.3.2
   peerDependencies:
-    "@mantine/hooks": 4.2.2
+    "@mantine/hooks": 4.2.4
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: ef71f810d2237f7393e656a5531e1cb2d04b13e2ce9f14483956ad9073f9f78c0701b12e14d931945da717822f0c9e175941b3a3041b36ddc549798fc3302acb
+  checksum: 6206c4129023e3ff2d110f609b7d68165898aefd7aca8d898078c02e402ca1f341750f44c820c45885291f2ef0bacc8fd95b08558644e2d5ddd400817593fc20
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:4.2.2":
-  version: 4.2.2
-  resolution: "@mantine/hooks@npm:4.2.2"
+"@mantine/hooks@npm:4.2.4":
+  version: 4.2.4
+  resolution: "@mantine/hooks@npm:4.2.4"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 6df90bc5b94451be0b617bba8ba9e29505a6dcca7dee97cb9e23ed3e4278386f590ee194a113d1d1bc8434d7987874a1942930a1139645062ff1edbb96577848
+  checksum: 1b5fc24523d939b41b8b1e179f17b489e2e5eb6a714605c8cdfcdd305c615e66df7c6d52cc334fb06e134ff2cd073e6d0a9c8b100f9e318207714b2d390dea9d
   languageName: node
   linkType: hard
 
-"@mantine/styles@npm:4.2.2":
-  version: 4.2.2
-  resolution: "@mantine/styles@npm:4.2.2"
+"@mantine/styles@npm:4.2.4":
+  version: 4.2.4
+  resolution: "@mantine/styles@npm:4.2.4"
   dependencies:
     "@emotion/cache": 11.7.1
     "@emotion/react": 11.7.1
@@ -608,7 +608,7 @@ __metadata:
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 9a4c029764388895fa92ed83ddffbfe596444c0e60a024b135ce7157ff873d4580ee8416ff76181f930dd1bd1d3064d4c2ad28df6ddcc7ea04fecb2edb795840
+  checksum: 92c13ec7cc7eb0c995af5795d80d684a700b1b6818f0ed785b8842ecb9c099445ff25e9c56e57a357b6901908a3317fdc60affbf67d1b8996fb705a515dc34c1
   languageName: node
   linkType: hard
 
@@ -820,12 +820,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.3":
-  version: 18.0.3
-  resolution: "@types/react-dom@npm:18.0.3"
+"@types/react-dom@npm:18.0.4":
+  version: 18.0.4
+  resolution: "@types/react-dom@npm:18.0.4"
   dependencies:
     "@types/react": "*"
-  checksum: 5c87fb610e212f0942ebbf522dfca4c9dc2ac8afa4c601454415e7c42f993518868207faff7658d11974142937ba7af2f80e274c3a3f5e0e697bdd5547dbe1b0
+  checksum: decde42d02a90ac2fe94fd6bfd9c78d002c03762a2d940df9422bf61af89c03d05e2113fd55fe45521fe27fa872a79dfd654b7d6b89652b455425efdcb763c58
   languageName: node
   linkType: hard
 
@@ -1848,16 +1848,16 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "juliushenke@workspace:."
   dependencies:
-    "@mantine/core": 4.2.2
-    "@mantine/hooks": 4.2.2
+    "@mantine/core": 4.2.4
+    "@mantine/hooks": 4.2.4
     "@types/react": 18.0.9
-    "@types/react-dom": 18.0.3
+    "@types/react-dom": 18.0.4
     "@vitejs/plugin-react": 1.3.2
     react: 18.1.0
     react-dom: 18.1.0
-    tabler-icons-react: 1.47.0
+    tabler-icons-react: 1.48.0
     typescript: 4.6.4
-    vite: 2.9.8
+    vite: 2.9.9
     vite-plugin-checker: 0.4.6
   languageName: unknown
   linkType: soft
@@ -2572,12 +2572,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tabler-icons-react@npm:1.47.0":
-  version: 1.47.0
-  resolution: "tabler-icons-react@npm:1.47.0"
+"tabler-icons-react@npm:1.48.0":
+  version: 1.48.0
+  resolution: "tabler-icons-react@npm:1.48.0"
   peerDependencies:
     react: ">= 16.8.0"
-  checksum: 9bac720a28d80e871926a6dd92950b8c2c090b5796d0c46f92e91c9bf9860126c7671c6ed460d0edd2030aae4e5b5f189b9b8688b48bd36325a069858ccb5597
+  checksum: 57731ea686bf76920f898d0742e244212775a54caa5f9b092a37f02a7126b8f75d148e40c7c793116eb56045047cb0c70fbace81b1a61473205be3e8e243c638
   languageName: node
   linkType: hard
 
@@ -2637,7 +2637,7 @@ __metadata:
 
 "typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
-  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
+  resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=7ad353"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
@@ -2732,9 +2732,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:2.9.8":
-  version: 2.9.8
-  resolution: "vite@npm:2.9.8"
+"vite@npm:2.9.9":
+  version: 2.9.9
+  resolution: "vite@npm:2.9.9"
   dependencies:
     esbuild: ^0.14.27
     fsevents: ~2.3.2
@@ -2757,7 +2757,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 7de3450bec4caa06f4540d1d252563ef0b7e1bdd167d04abf03db72cfd8c9a93879e18861283bc7d075e1d094b78b71770ca36f9b965bdf28c66665eafdc29dc
+  checksum: 9292b8ba510a393d0c61c407ebfb4eaa818b2d8d106b3476cdc94cb57a0c59348a535936d698db04b35910a1cfdb16aeaf872f0f995b54cf6d7ed31bc7886deb
   languageName: node
   linkType: hard
 
