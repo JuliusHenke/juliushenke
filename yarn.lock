@@ -586,12 +586,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mantine/hooks@npm:4.2.4":
-  version: 4.2.4
-  resolution: "@mantine/hooks@npm:4.2.4"
+"@mantine/hooks@npm:5.3.0":
+  version: 5.3.0
+  resolution: "@mantine/hooks@npm:5.3.0"
   peerDependencies:
     react: ">=16.8.0"
-  checksum: 1b5fc24523d939b41b8b1e179f17b489e2e5eb6a714605c8cdfcdd305c615e66df7c6d52cc334fb06e134ff2cd073e6d0a9c8b100f9e318207714b2d390dea9d
+  checksum: d028ffc99a30898a9ecf49a23184cdb73b666eb36126eb61689cd678f93a1efcbc70f515d1cc5c88715b33af3ac872f63161849de8730047f9aa9666b64b8220
   languageName: node
   linkType: hard
 
@@ -1849,7 +1849,7 @@ __metadata:
   resolution: "juliushenke@workspace:."
   dependencies:
     "@mantine/core": 4.2.4
-    "@mantine/hooks": 4.2.4
+    "@mantine/hooks": 5.3.0
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     "@vitejs/plugin-react": 1.3.2
