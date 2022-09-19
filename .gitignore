@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 .firebase
+.next
 
 # Editor directories and files
 .vscode/*
@@ -25,8 +26,8 @@ dist-ssr
 *.sw?
 
 # yarn
+.pnp.*
 .yarn/*
-!.yarn/cache
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases

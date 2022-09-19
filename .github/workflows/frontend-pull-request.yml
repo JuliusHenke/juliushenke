@@ -1,25 +1,25 @@
-name: frontend-pull-request
-
-on:
-  pull_request:
-
-jobs:
-  frontend-pull-request:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Check yarn cache and build
-        run: | 
-          yarn install --immutable --check-cache
-          yarn build
-
-      - name: Deploy preview channel
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JULIUSHENKE_96CE3 }}'
-          projectId: juliushenke-96ce3
-          expires: 30d
-        env:
-          FIREBASE_CLI_PREVIEWS: hostingchannels
+#name: frontend-pull-request
+#
+#on:
+#  pull_request:
+#
+#jobs:
+#  frontend-pull-request:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - uses: actions/checkout@v3
+#
+#      - name: Check yarn cache and build
+#        run: |
+#          yarn install --immutable --check-cache
+#          yarn build
+#
+#      - name: Deploy preview channel
+#        uses: FirebaseExtended/action-hosting-deploy@v0
+#        with:
+#          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+#          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_JULIUSHENKE_96CE3 }}'
+#          projectId: juliushenke-96ce3
+#          expires: 30d
+#        env:
+#          FIREBASE_CLI_PREVIEWS: hostingchannels
