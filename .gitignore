@@ -7,12 +7,14 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# dependencies, build, deploy
 node_modules
 dist
 dist-ssr
 *.local
 .firebase
 .next
+.vercel
 
 # Editor directories and files
 .vscode/*
