@@ -2,8 +2,6 @@ import React, {FunctionComponent} from "react";
 import {Chip, Container, Group, Image} from "@mantine/core";
 import {Api, Book, BrandGithub, BrandGitlab, BrandTwitter} from "tabler-icons-react";
 import {ExternalLink} from "./ExternalLink";
-import FDroidIcon from "../resources/icons/f-droid.png"
-import GoogPlayIcon from "../resources/icons/google-play.png"
 
 interface Props {
     title: string
@@ -37,32 +35,28 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
     return (
         <Container sx={{
             paddingBottom: "16px",
+            textAlign: "left"
         }}>
             <h3>{title}</h3>
             <p>
                 {description}
             </p>
             <h3>Tech stack</h3>
-            <Group spacing={"xs"}>{
+            <Chip.Group spacing={"xs"}>{
                 Object.entries(techStack).map(([name, url]) =>
                     <Chip
                         checked={false}
                         key={name}
-                        styles={(theme) => ({
-                            filled: {
-                                color: "white",
-                                backgroundColor: theme.colors.pink
-                            },
-                        })}
+                        color={"#673ab8"}
                         sx={{
                             a: {
                                 textDecoration: "none"
-                            }
+                            },
                         }}
                         onClick={() => window.open(url)}
                     >{name}</Chip>
                 )
-            }</Group>
+            }</Chip.Group>
             <h3>Check it out</h3>
             <Group mb={24}>
                 {url && <ExternalLink
@@ -71,11 +65,11 @@ export const ProjectTabContent: FunctionComponent<Props> = ({
                 />}
                 {googlePlay && <ExternalLink
                     href={googlePlay}
-                    label={<Image src={GoogPlayIcon} width={200} color={"white"}/>}
+                    label={<Image src={"/icons/google-play.png"} width={200} color={"white"}/>}
                 />}
                 {fDroid && <ExternalLink
                     href={fDroid}
-                    label={<Image src={FDroidIcon} width={200} color={"white"}/>}
+                    label={<Image src={"/icons/f-droid.png"} width={200} color={"white"}/>}
                 />}
                 {github && <ExternalLink
                     href={github}
