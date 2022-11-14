@@ -108,7 +108,7 @@ export default function Index() {
                                 "Bootstrap": "https://getbootstrap.com/",
                                 "jQuery": "https://jquery.com/",
                             }}
-                            screenshot={"/screenshots/tormap.png"}
+                            screenshot={"/screenshots/lightningpuzzle.png"}
                             url={"https://lightningpuzzle.com"}
                             twitter={"https://twitter.com/lightningpuzzle"}
                         />
@@ -128,7 +128,7 @@ export default function Index() {
                                 "Kotlin": "https://kotlinlang.org/",
                                 "Javalin": "https://javalin.io/",
                             }}
-                            screenshot={"/screenshots/tormap.png"}
+                            screenshot={"/screenshots/kalkulierbar.png"}
                             url={"https://kbar.app"}
                             api={"https://api.kbar.app"}
                             github={"https://github.com/KalkulierbaR/kalkulierbar"}
