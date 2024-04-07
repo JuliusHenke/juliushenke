@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@emotion/react": "11.11.1",
+    "@emotion/react": "11.11.4",
     "@emotion/server": "11.11.0",
     "@mantine/core": "5.10.5",
     "@mantine/hooks": "5.10.5",
@@ -20,8 +20,8 @@
   },
   "devDependencies": {
     "@types/node": "20.10.4",
-    "@types/react": "18.2.33",
-    "@types/react-dom": "18.2.14",
+    "@types/react": "18.2.74",
+    "@types/react-dom": "18.2.24",
     "typescript": "5.2.2"
   },
   "packageManager": "yarn@4.0.2",
