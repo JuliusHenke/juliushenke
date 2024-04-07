@@ -8,5 +8,11 @@
   ],
   "assignees": [
     "JuliusHenke"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePrefixes": "@mantine/",
+      "allowedVersions": "^5.0.0"
+    }
   ]
 }
