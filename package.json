@@ -19,14 +19,14 @@
     "tabler-icons-react": "1.56.0"
   },
   "devDependencies": {
-    "@types/node": "20.12.12",
+    "@types/node": "20.14.0",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "typescript": "5.4.5"
   },
-  "packageManager": "yarn@4.1.1",
+  "packageManager": "yarn@4.2.2",
   "volta": {
     "node": "20.10.0",
-    "yarn": "4.1.1"
+    "yarn": "4.2.2"
   }
 }
